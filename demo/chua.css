@@ -1,0 +1,90 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 128px;
+}
+.dot {
+  color: red;
+}
+h2 {
+  margin-bottom: 64px;
+  font-size: 32px;
+}
+input {
+  width: 400px;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #37a9cd;
+}
+input:hover {
+  border: 2px solid orange;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.btn-2:active {
+  background-color: violet;
+  color: yellow;
+}
+label {
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.btn {
+  width: 432px;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+  background-color: #37a9cd;
+  border: none;
+}
+
+.btn-1{
+    background-color:#37A9CD ;
+}
+.btn-2{
+    background-color:#2D3748 ;
+}
+.forgot-password{
+    color: #37A9CD;
+    font-size: 18px;
+    font-weight: 700;
+}
+p{
+   margin: 20px 0;
+}
+.text-gray{
+    color: #4A5568;
+   font-size: 18px;
+    font-weight: 700;
+
+}
+.text-blue{
+    color: #37A9CD;
+   font-size: 18px;
+    font-weight: 700;
+}
+a:hover {
+  text-decoration: underline;
+}

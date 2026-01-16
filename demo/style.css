@@ -1,0 +1,146 @@
+/* color -- background - color - width - height - border radius - border */
+/* magin - padding - text align -  */
+/* menu thẻ nav phải dùng padding */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: 0%;
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 40px; /* tạo khoảng cách phía trên */
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px; /* giới hạn độ rộng form */
+  padding: 20px;
+  text-align: center;
+}
+
+.brand-logo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 60px; /* khoảng cách từ logo xuống Welcome */
+}
+
+.dot {
+  color: #e85c4a; /* màu chấm đỏ */
+}
+
+/* --- Welcome --- */
+.sub-title {
+  font-size: 16px;
+  color: #2D3748;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.main-title {
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 900;
+  color: #1A202C;
+  margin-bottom: 40px;
+}
+
+.login-form {
+  text-align: left; /* căn trái cho label và input */
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.input-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4A5568;
+  margin-bottom: 8px;
+}
+
+.input-field {
+  padding: 14px 16px;
+  font-size: 15px;
+  border: 1px solid #63a4c7;
+  border-radius: 8px;
+  color: #333;
+}
+
+/* Widget Buttons */
+.action-group {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* nút Login Xanh */
+.btn-primary {
+  width: 450px;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: #37A9CD;
+  color: white;
+}
+
+/* nút Google */
+.btn-google {
+  width: 450px;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: #2d3748;
+  color: white;
+}
+
+/* --- footer --- */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link-forgot {
+  color: #63a4c7;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.register-prompt {
+  font-size: 15px;
+}
+
+.text-gray {
+  color: #4A5568;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.link-highlight {
+  color: #63a4c7;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 18px;
+}
