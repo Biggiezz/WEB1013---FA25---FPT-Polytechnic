@@ -1,0 +1,137 @@
+/* có 2 cách viết tạo kiểu css */
+/* 1. dùng tên thẻ để css */
+/* 2. đặt tên class để css */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+h3 {
+  color: red;
+}
+
+p {
+  color: gray;
+}
+/* màu nền */
+/*     background-color: yellow; */
+/* chiều rộng */
+/* chiều cao */
+/* bo góc */
+/* đường kẻ */
+
+.products h3 a {
+  color: red;
+}
+nav ul li a {
+  color: blue;
+}
+.products img {
+  width: 400;
+  height: 270;
+  border-radius: 16%;
+}
+.products {
+  border: 1px dotted wheat;
+  width: 400;
+}
+
+.intro h4 {
+  color: rebeccapurple;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+}
+.header ul li {
+  margin: 0 15px;
+}
+.header ul li a {
+  font-weight: bold;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro h2 {
+  color: burlywood;
+  font-size: 40px;
+}
+
+.contactus {
+  margin-top: 50px;
+}
+.contactus form div {
+  margin-bottom: 15px;
+}
+.contactus form label {
+  display: inline-block;
+  width: 100px;
+}
+.contactus form input,
+.contactus form textarea {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contactus form button {
+  background-color: violet;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactus form button:hover {
+  background-color: darkblue;
+}
+.ourpopular {
+  margin-bottom: 30px;
+}
+.header button:hover {
+  background-color: red;
+}
+.header button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: blue;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: red;            }
